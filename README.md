@@ -45,7 +45,7 @@ dymo.renderLabel(labelXml).then(imageData => {
 Open the free `DYMO Label` software and design a label.  When you have designed one save it.  The file it saves is an XML document like the one below.  Simply pass that XML or (hint hint) a version of that XML that you did some string replacement on to the print function with a printer name and you are printing labels.
 
 ### working example that prints a test label
-This example will print TEST123 on a shipping size label (2 1/8" x 4") to a printer named 'DYMO LabelWriter 450'. 
+This example will print TEST123 on a shipping size label (2 1/8" x 4") to a printer named 'DYMO LabelWriter 450'.. 
 
 ```
 const Dymo = require('dymojs'),
